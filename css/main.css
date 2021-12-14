@@ -20,7 +20,28 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1200px;
+  /*  width: 1200px;*/
+}
+
+@media screen and (min-widht: 480px) {
+  .container {
+    width: 480px;
+    background-color: tomato;
+  }
+}
+
+@media screen and (min-widht: 768px) {
+  .container {
+    width: 768px;
+    background-color: teal;
+  }
+}
+
+@media screen and (min-widht: 1600px) {
+  .container {
+    width: 1600px;
+    background-color: sandybrown;
+  }
 }
 
 .section {
