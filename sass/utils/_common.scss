@@ -4,4 +4,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-color);
   background: var(--primary-fone-color);
+
+  /*  @media screen and (min-widht: 480px) {
+    width: 480px;
+    background-color: tomato;
+  }
+
+  @media screen and (min-widht: 768px) {
+    width: 768px;
+    background-color: teal;
+  }
+
+  @media screen and (min-widht: 1600px) {
+    width: 1600px;
+    background-color: sandybrown;
+  }*/
 }
