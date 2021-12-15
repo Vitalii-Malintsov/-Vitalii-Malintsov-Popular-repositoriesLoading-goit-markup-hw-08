@@ -3,20 +3,26 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  background: var(--primary-fone-color);
-
-  /*  @media screen and (min-widht: 480px) {
+  background-color: var(--primary-fone-color);
+}
+/*
+@media screen and (min-widht: 480px) {
+  body {
     width: 480px;
     background-color: tomato;
   }
+}
 
-  @media screen and (min-widht: 768px) {
+@media screen and (min-widht: 768px) {
+  body {
     width: 768px;
     background-color: teal;
   }
+}
 
-  @media screen and (min-widht: 1600px) {
+@media screen and (min-widht: 1600px) {
+  body {
     width: 1600px;
     background-color: sandybrown;
-  }*/
-}
+  }
+}*/

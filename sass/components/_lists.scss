@@ -1,5 +1,5 @@
 .list {
-  display: flex;
+  /*  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px;
@@ -7,6 +7,15 @@
   list-style: none;
   & .item + .item {
     margin-left: 30px;
+  }*/
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  & .item {
+    margin-bottom: 30px;
+  }
+  & .item + .item {
+    margin-bottom: 30px;
   }
 }
 
@@ -21,7 +30,7 @@
 }
 
 .list__social {
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .list__social .item {
