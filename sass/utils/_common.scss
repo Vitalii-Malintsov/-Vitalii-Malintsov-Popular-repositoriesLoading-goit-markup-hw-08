@@ -5,24 +5,9 @@ body {
   color: var(--title-color);
   background-color: var(--primary-fone-color);
 }
-/*
-@media screen and (min-widht: 480px) {
-  body {
-    width: 480px;
-    background-color: tomato;
-  }
-}
 
-@media screen and (min-widht: 768px) {
-  body {
-    width: 768px;
-    background-color: teal;
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-
-@media screen and (min-widht: 1600px) {
-  body {
-    width: 1600px;
-    background-color: sandybrown;
-  }
-}*/

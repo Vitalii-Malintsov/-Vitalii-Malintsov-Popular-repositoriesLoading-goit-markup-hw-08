@@ -9,23 +9,21 @@
     margin-left: 30px;
   }*/
   margin: 0px;
+  margin-bottom: -30px;
   padding: 0px;
   list-style: none;
   & .item {
     margin-bottom: 30px;
   }
-  & .item + .item {
-    margin-bottom: 30px;
-  }
 }
 
 .list__work .item {
-  position: relative;
+  /*position: relative;*/
 }
 
 .list__command .item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);*/
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -34,18 +32,18 @@
 }
 
 .list__social .item {
-  box-shadow: none;
+  /*box-shadow: none;
   & + .item {
     margin-left: 10px;
-  }
+  }*/
 }
 
 .list__сlients .item + .item {
-  margin-left: 30px;
+  /*margin-left: 30px;*/
 }
 
 .list__footer {
-  flex-direction: column;
+  /*flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   width: 231px;
@@ -55,15 +53,15 @@
   }
   & .item:not(:last-child) {
     margin-bottom: 9px;
-  }
+  }*/
 }
 
 .list__examples {
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .list__examples .item {
-  align-content: space-around;
+  /*align-content: space-around;
   background-color: var(--primary-color);
   border-bottom: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -83,5 +81,5 @@
   &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+  }*/
 }
