@@ -17,19 +17,19 @@ body {
 
 @media screen and (min-widht: 480px) {
   body {
-    color: red;
+    background-color: red;
   }
 }
 
 @media screen and (min-widht: 768px) {
   body {
-    color: yellow;
+    background-color: yellow;
   }
 }
 
 @media screen and (min-widht: 1200px) {
   body {
-    color: green;
+    background-color: green;
   }
 }
 
@@ -432,24 +432,47 @@ body {
 }
 
 .section__feature {
-  /*display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 0px;
-  padding-bottom: 30px;*/
   width: 100%;
 }
 
+@media screen and (min-widht: 768px) and (max-widht: 1199px) {
+  .section__feature {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-widht: 1200px) and (max-widht: 1600px) {
+  .section__feature {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .feature__box-icon {
-  width: 450px;
-  height: 120px;
+  width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding: 25px 190px 25px 190px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border: none;
   background-color: #f5f4fa;
   border-radius: 4px;
+  text-align: center;
+}
+
+@media screen and (min-widht: 768px) and (max-widht: 1199px) {
+  .section__feature-icon {
+    width: 50%;
+  }
+}
+
+@media screen and (min-widht: 1200px) and (max-widht: 1600px) {
+  .section__feature-icon {
+    width: 33.333%;
+  }
 }
 
 .feature__box-text {
