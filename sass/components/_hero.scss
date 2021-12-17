@@ -5,7 +5,7 @@
   letter-spacing: 0.06em;
 }
 
-@media screen and (min-widht: 1200px) {
+@media screen and (min-width: 1200px) {
   .section__hero {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -23,13 +23,13 @@
   background-position: center;
 }
 
-@media screen and (min-widht: 768px) and (max-widht: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section__hero-img {
     background-image: url('../images/solution-tab.jpg');
   }
 }
 
-@media screen and (min-widht: 1200px) and (max-widht: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
   .section__hero-img {
     background-image: url('../images/solution.jpg');
   }
@@ -49,7 +49,7 @@
   color: var(--primary-fone-color);
 }
 
-@media screen and (min-widht: 1200px) {
+@media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
