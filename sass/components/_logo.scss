@@ -1,8 +1,17 @@
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  /*font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
+  &__accent {
+    color: var(--link-color);
+  }*/
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.167;
+  text-align: center;
   text-decoration: none;
   &__accent {
     color: var(--link-color);
@@ -17,5 +26,6 @@
 .logo__footer {
   display: inline-block;
   margin-bottom: 20px;
+
   color: var(--primary-fone-color);
 }
