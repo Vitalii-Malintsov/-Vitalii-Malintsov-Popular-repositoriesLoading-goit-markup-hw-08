@@ -109,13 +109,8 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .list__footer {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-width: 100%;
-    font-style: normal;
+.list__footer {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 0px;
     & .item + .item {
       margin-left: 0px;

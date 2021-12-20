@@ -109,16 +109,21 @@
   label {
     display: flex;
     align-items: center;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--text-color);
     cursor: pointer;
+    & {
+      @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+      }
+    }
   }
 }
 
 .checkbox__input {
-  width: 16px;
   height: 15px;
   appearance: none;
   outline: none;
@@ -158,8 +163,15 @@
 .checkbox__link {
   text-decoration: none;
   border-bottom: 1px solid #188ce8;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #188ce8;
+
+  & {
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
 }
