@@ -57,7 +57,7 @@
     @media screen and (min-width: 768px) {
       display: flex;
       align-items: center;
-      max-width: 768px;
+      max-width: 100%;
       max-height: 80px;
       .menu-toggle,
       .social-networks-list-mobile-menu {
@@ -74,6 +74,7 @@
       .nav-list {
         display: flex;
         margin-right: 84px;
+        margin-bottom: 0px;
         &__menu:not(:last-child) {
           margin-right: 50px;
         }
@@ -87,6 +88,7 @@
         font-size: 12px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
         fill: #757575;
         transition-property: color, fill;
         transition-duration: 250ms;
@@ -120,6 +122,7 @@
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &::after {
           content: '';
@@ -143,6 +146,7 @@
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: #212121;
         &:hover,
@@ -152,16 +156,16 @@
       }
     }
     @media screen and (min-width: 1200px) {
-      max-width: 1200px;
+      max-width: 100%;
       .top-line {
         border-bottom: 1px solid #ececec;
         &__contact {
+          margin-bottom: 0px;
           display: -webkit-box;
         }
         &__container {
           display: flex;
           align-items: center;
-          justify-content: center;
         }
       }
       .menu-container {
@@ -171,7 +175,7 @@
         display: flex;
         margin-right: 305px;
         &__menu:not(:last-child) {
-          margin-right: px;
+          margin-right: 50px;
         }
       }
       .link--blue {
@@ -185,6 +189,7 @@
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &::after {
           content: '';
@@ -208,6 +213,7 @@
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: getColor#757575;
         &:hover,
@@ -232,6 +238,7 @@
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
         fill: #757575;
         transition-property: color, fill;
         transition-duration: 250ms;
