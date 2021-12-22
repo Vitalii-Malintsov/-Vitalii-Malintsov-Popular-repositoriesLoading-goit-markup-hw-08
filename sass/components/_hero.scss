@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .section__hero-img {
-    background-image: url('../images/img-solution.jpg');
+    background-image: url('../images/img-hero/img-solution.jpg');
     & {
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url('../images/img-hero/solution-2x.jpg');
