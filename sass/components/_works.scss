@@ -1,64 +1,67 @@
 .works {
-  padding-top: 0;
+  @media screen and(min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 0px;
+  }
+  &__container {
+    display: none;
+    @media screen and(min-width: 1200px) {
+      max-width: 100%;
+
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media screen and(min-width: 1200px) {
+      display: block;
+      margin-bottom: 0px;
+    }
+  }
+}
+.works__title {
+  margin-bottom: 50px;
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+}
+.works__list {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-@media screen and (max-width: 1199px) {
-  .works {
-    display: none;
-  }
+.works__block {
+  display: flex;
 
-  .item__work-monoblock::after {
-    position: absolute;
-    content: 'ДЕСТОПНЫЕ ПРИЛОЖЕНИЯ';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    color: var(--primary-fone-color);
-    background-color: rgba(47, 48, 58, 0.8);
-    bottom: 0px;
-    right: 0px;
-  }
+  text-align: center;
+  list-style: none;
+  position: relative;
+}
 
-  .item__work-notebook::after {
-    position: absolute;
-    content: 'МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    color: var(--primary-fone-color);
-    background-color: rgba(47, 48, 58, 0.8);
-    bottom: 0px;
-    right: 0px;
-  }
+.works__block:not(:last-child) {
+  margin-right: 30px;
+}
 
-  .item__work-tablet::after {
-    position: absolute;
-    content: 'ДИЗАЙНЕРСКИЕ РЕШЕНИЯ';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    color: var(--primary-fone-color);
-    background-color: rgba(47, 48, 58, 0.8);
-    bottom: 0px;
-    right: 0px;
-  }
-
-  .work__img {
-    display: block;
-  }
+.works__block-text {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
 }

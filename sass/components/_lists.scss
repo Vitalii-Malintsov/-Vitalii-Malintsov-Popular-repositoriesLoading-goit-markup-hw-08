@@ -28,22 +28,6 @@
   }
 }
 
-.list__work {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  & .item {
-    position: relative;
-  }
-}
-
-.list__work .item + .item {
-  margin-left: 30px;
-}
-
 .list__command {
   @media screen and (min-width: 480px) {
     display: flex;
