@@ -129,7 +129,7 @@ img {
 .title__сlients {
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.178;
@@ -140,6 +140,7 @@ img {
   .title__work,
   .title__command,
   .title__сlients {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.2;
   }
@@ -157,9 +158,17 @@ img {
   text-align: center;
 }
 
-.title__feature {
-  margin-bottom: 10px;
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .title__feature {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title__feature,
+  .title__subscription {
+    text-align: left;
+  }
 }
 
 .command__title {
@@ -356,7 +365,7 @@ img {
 
 .list__filter {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 .list__filter .item {
@@ -369,6 +378,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .list__filter {
+    margin-bottom: 30px;
     text-align: center;
   }
 }
@@ -649,6 +659,7 @@ img {
 }
 
 .is-open .link--blue {
+  font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
@@ -657,6 +668,7 @@ img {
 }
 
 .is-open .link--blaсk {
+  font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
@@ -674,6 +686,7 @@ img {
 }
 
 .is-open .top-line__link.mail {
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
@@ -682,6 +695,7 @@ img {
 }
 
 .is-open .top-line__link.tell {
+  font-weight: 500;
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.02em;
@@ -788,31 +802,31 @@ img {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section__hero-img {
-    background-image: url("../images/img-hero/solution-mob-2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-mob-2x.jpg");
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section__hero-img {
-    background-image: url("../images/img-hero/solution-tab.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-tab.jpg");
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .section__hero-img {
-    background-image: url("../images/img-hero/solution-tab-2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-tab-2x.jpg");
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .section__hero-img {
-    background-image: url("../images/img-hero/solution.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution.jpg");
   }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (max-width: 1600px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (max-width: 1600px) and (min-resolution: 2dppx) {
   .section__hero-img {
-    background-image: url("../images/img-hero/solution-2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-2x.jpg");
   }
 }
 
@@ -865,7 +879,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .works {
-    padding-top: 94px;
+    padding-top: 0px;
     padding-bottom: 94px;
     margin-bottom: 0px;
   }
@@ -1296,6 +1310,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06rem;
 }
 
 .card__text {

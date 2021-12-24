@@ -3,7 +3,7 @@
 .title__сlients {
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.178;
@@ -14,6 +14,7 @@
   .title__work,
   .title__command,
   .title__сlients {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.2;
   }
@@ -30,10 +31,16 @@
   line-height: 1.14;
   text-align: center;
 }
-
-.title__feature {
-  margin-bottom: 10px;
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .title__feature {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title__feature,
+  .title__subscription {
+    text-align: left;
+  }
 }
 
 .command__title {

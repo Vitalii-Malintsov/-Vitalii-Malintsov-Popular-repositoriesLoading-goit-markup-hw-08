@@ -23,17 +23,20 @@
   background-position: center;
   & {
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url('../images/img-hero/solution-mob-2x.jpg');
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/img-hero/solution-mob-2x.jpg');
     }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section__hero-img {
-    background-image: url('../images/img-hero/solution-tab.jpg');
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/img-hero/solution-tab.jpg');
     & {
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        background-image: url('../images/img-hero/solution-tab-2x.jpg');
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url('../images/img-hero/solution-tab-2x.jpg');
       }
     }
   }
@@ -41,10 +44,12 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .section__hero-img {
-    background-image: url('../images/img-hero/solution.jpg');
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/img-hero/solution.jpg');
     & {
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        background-image: url('../images/img-hero/solution-2x.jpg');
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url('../images/img-hero/solution-2x.jpg');
       }
     }
   }
