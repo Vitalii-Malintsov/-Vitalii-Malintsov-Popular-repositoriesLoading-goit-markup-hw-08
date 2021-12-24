@@ -1236,6 +1236,12 @@ img {
   background-color: var(--link-color);
 }
 
+@media screen and (min-width: 768px) {
+  .filter__button {
+    margin-bottom: 0px;
+  }
+}
+
 .example__img {
   position: relative;
   overflow: hidden;
