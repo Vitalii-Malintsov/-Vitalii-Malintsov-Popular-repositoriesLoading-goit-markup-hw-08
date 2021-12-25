@@ -166,6 +166,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .title__feature,
+  .title__social,
   .title__subscription {
     text-align: left;
   }
@@ -370,15 +371,19 @@ img {
 
 .list__filter .item {
   display: inline;
-}
-
-.list__filter .item + .item {
   margin-right: 8px;
 }
 
 @media screen and (min-width: 768px) {
   .list__filter {
     margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list__filter {
+    margin-bottom: 50px;
     text-align: center;
   }
 }
@@ -794,13 +799,25 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-mob.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section__hero-img {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-2x.jpg");
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .section__hero-img {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-mob.jpg");
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 2dppx) {
   .section__hero-img {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-hero/solution-mob-2x.jpg");
   }
